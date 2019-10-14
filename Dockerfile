@@ -2,6 +2,8 @@ FROM tensorflow/tensorflow:latest-gpu-py3-jupyter
 
 COPY requirements.txt  /tmp/requirements.txt  
 
+RUN ln -sf bash /bin/sh
+
 RUN apt-get -y update
 
 RUN apt-get install -y \
