@@ -1,4 +1,3 @@
-absl-py
 asn1crypto
 atomicwrites
 attrs
